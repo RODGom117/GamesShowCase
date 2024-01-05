@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8601b17da0a530344b9a582376ac8d36, type: 3}
+  m_Name: Camazotz
+  m_EditorClassIdentifier: 
+  baseAttributes:
+    enemyName: Camazotz
+    CacaoDrop: 1000
+    maxSpawn: 1
+    enemyPrefab: {fileID: 0}
+  movementAttributes:
+    movementSpeed: 10
+    gravity: 9.81
+  healthAttributes:
+    maxHealth: 500
+    healthRegen: 0.1
+  combatAttributes:
+    basicAttackDamage: 10
+    attackSpeed: 1
+    numberOfSkills: 1
+  visionAttributes:
+    visionRange: 20

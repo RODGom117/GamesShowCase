@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71c5d1de667422e9dfb00a1d815c613, type: 3}
+  m_Name: Maira
+  m_EditorClassIdentifier: Assembly-CSharp:HeroManager.Scripts:HeroManagerStats
+  baseAttributes:
+    characterName: Maira
+    description: "Una chica cuya fortaleza f\xEDsica y mental no tienen comparaci\xF3n,
+      dentro y fuera del cuadril\xE1tero. Maira fue bendecida con el esp\xEDritu
+      del jaguar para proteger al quinto sol y a sus amigos. (Antepasada: Aymara,
+      \u201CLa fuerza de la selva\u201D)"
+  movementAttributes:
+    movementSpeed: 10
+    gravitySpeed: 39.1
+    jumpHeight: 15.5
+    jumpAgility: 5
+    sprintSpeedMultiplier: 2
+    sprintGradualAcceleration: 5
+  healthAttributes:
+    maxHealth: 300
+    healthRegen: 0.1
+  combatAttributes:
+    basicAttackDamage: 15
+    attackSpeed: 1
+    criticalHitChance: 1
+    defense: 1
+  lassoAttributes:
+    lassoCircleDiameter: 10
+  abilityAttributes:
+    primaryAbility: {fileID: 11400000, guid: 6d5a58bdaf92ad54d92006fc64b7b0c0, type: 2}
+    secondaryAbility: {fileID: 11400000, guid: db6e01043eb5aba4db05eb7644b27f6f, type: 2}
+    ultimateAbility: {fileID: 11400000, guid: 1f2176742f3cbc6408410a3dc997c458, type: 2}

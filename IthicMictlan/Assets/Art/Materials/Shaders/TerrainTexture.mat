@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TerrainTexture
+  m_Shader: {fileID: 4800000, guid: 8fa84e1c8f3a97b4bb416e8eb087630e, type: 3}
+  m_Parent: {fileID: 2100000, guid: aa2fec226364ea640a62d7dd8c7572ce, type: 2}
+  m_ModifiedSerializedProperties: 6
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _EmmisTex:
+        m_Texture: {fileID: 2800000, guid: c8f3f935ff5dd2e4290ad74fd3617b37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b77b24fe30f1ff648b5e970e3c156852, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 3d1cd090dd19e8641a09ef9314502593, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _FresnelBrightness: 0.065
+    - _FresnelPower: 0.73
+    - _FresnelShadowDropoff: 0.287
+    - _HighIntensity: 4.38
+    - _LightScalar: 2.01
+    - _LowIntensity: 1.91
+    - _RampLevels: 9
+    - _RimAlpha: 0.065
+    - _RimDropOff: 0.508
+    - _RimPower: 0.767
+    m_Colors:
+    - _FresnelColor: {r: 0.8784314, g: 0.33333334, b: 0.3137255, a: 1}
+    - _HighColor: {r: 0.31783548, g: 0.8773585, b: 0.6162477, a: 1}
+    - _LowColor: {r: 0.8784314, g: 0.33333334, b: 0.3137255, a: 1}
+    - _RimColor: {r: 0.8784314, g: 0.3137255, b: 0.5764706, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8601b17da0a530344b9a582376ac8d36, type: 3}
+  m_Name: Chaneque
+  m_EditorClassIdentifier: 
+  baseAttributes:
+    enemyName: default
+    CacaoDrop: 10
+    maxSpawn: 10
+    enemyPrefab: {fileID: 0}
+  movementAttributes:
+    movementSpeed: 10
+    gravity: 5
+  healthAttributes:
+    maxHealth: 50
+    healthRegen: 0.1
+  combatAttributes:
+    basicAttackDamage: 15
+    attackSpeed: 1
+    numberOfSkills: 1
+  visionAttributes:
+    visionRange: 10

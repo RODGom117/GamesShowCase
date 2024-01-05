@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71c5d1de667422e9dfb00a1d815c613, type: 3}
+  m_Name: Rosa
+  m_EditorClassIdentifier: Assembly-CSharp:HeroManager.Scripts:HeroManagerStats
+  baseAttributes:
+    characterName: Rosa
+    description: "Una joven apasionada por los libros con una determinaci\xF3n inigualable.
+      Rosa utiliza poderes oscuros amplificados por sus emociones en servicio del
+      quinto sol para defender todo lo que ama. (Antepasada: Xochizuatl, \u201CLa
+      bruja emplumada\u201D)"
+  movementAttributes:
+    movementSpeed: 10
+    gravitySpeed: 39.1
+    jumpHeight: 15.5
+    jumpAgility: 5
+    sprintSpeedMultiplier: 2
+    sprintGradualAcceleration: 5
+  healthAttributes:
+    maxHealth: 200
+    healthRegen: 0.1
+  combatAttributes:
+    basicAttackDamage: 20
+    attackSpeed: 1.1
+    criticalHitChance: 1
+    defense: 1
+  lassoAttributes:
+    lassoCircleDiameter: 10
+  abilityAttributes:
+    primaryAbility: {fileID: 11400000, guid: bcfdd3e657aa1c94c851be4ae2082233, type: 2}
+    secondaryAbility: {fileID: 11400000, guid: d67f2dfd9b723b740b830d72f1c635c1, type: 2}
+    ultimateAbility: {fileID: 11400000, guid: 97159ccb196672c47930358b92860371, type: 2}

@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MairaSecondaryAbility
+  m_Controller: {fileID: 9100000, guid: 05b61325a264401458f1a2f245802b89, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: a32f6fe2ed7c2b6499e0bf7628570188, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: a32f6fe2ed7c2b6499e0bf7628570188, type: 3}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71c5d1de667422e9dfb00a1d815c613, type: 3}
+  m_Name: standard
+  m_EditorClassIdentifier: Assembly-CSharp:HeroManager.Scripts:HeroManagerStats
+  baseAttributes:
+    characterName: default
+  movementAttributes:
+    movementSpeed: 10
+    gravitySpeed: 39.1
+    jumpHeight: 15.5
+    jumpAgility: 5
+    sprintSpeedMultiplier: 2
+  healthAttributes:
+    maxHealth: 200
+    healthRegen: 0.1
+    currentHealth: 200
+  combatAttributes:
+    basicAttackDamage: 10
+    attackSpeed: 1
+  lassoAttributes:
+    lassoCircleDiameter: 10
