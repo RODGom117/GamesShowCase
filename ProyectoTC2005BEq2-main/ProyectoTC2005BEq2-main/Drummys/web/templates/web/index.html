@@ -1,0 +1,104 @@
+{% extends "web/navbar-footer.html" %}
+
+{% block navbar %}
+{{block.super}}
+<style>
+    #home{
+        color: #E76F51;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<section id="banner">
+  <div class="banner-container">
+    {% load static %}
+    <img src="{% static 'assets/diadestello.jpg' %}" id="controller" />
+  <div id="banner-container-div" class="text-box">
+    <div><h1>Drummy's Adventures {{ valor }}</h1></div>
+     <div id="drummy-gif-container"> <img id="drummy-gif" src="{% static 'assets/drummyTocando.gif' %}" /></div>
+     <div><h2>Follow Drummy's <br>Adventures and save your percussionist<br> friends using your music skills.</h2></div>
+  </div>
+  </div>
+</section>
+<section id="our-goal">
+  <div>
+    <h1>Our Goal</h1>
+    <p>Drummy's Adventures aims to entertain the players while teching them about the world of Percussions.  </p>
+    <div class="box">
+      <div class="sub-box">
+        <h3>Gameplay</h3>
+        <p>Drummy is a percussionst player who has to use his Drummer's skills to save his friends. While doing so, Drummy you can have fun while learning about percussion instruments.
+</p>
+      </div>
+      <div class="sub-box1">
+        <h3>Learning Process</h3>
+        <p>This game teaches the player some facts surrounding the world of perscussion instruments. Have fun while learning!.
+</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="banner1">
+    <div class="boxes">
+      <div class="sub-box">
+        <div class="image-container">
+          {% load static %}
+          <img src="{% static 'assets/escenario.png' %}"></img>
+        </div>
+        <h2>Levels</h2>
+        <p>The game has three levels, each one more difficult than the previous one. Drummy has to defeat the enemies he encounters in order to advance through each level.</p>
+      </div>
+      <div class="sub-box">
+        <div class="image-container">
+          {% load static %}
+          <img src="{% static 'assets/hearths.jpeg' %}"></img>
+          <img src="{% static 'assets/hearths.jpeg' %}"></img>
+        </div>
+        <h2>Score</h2>
+        <p>Be the best by saving Drummy's friends the fastest way you can. Drummy has to go through all the levels to finish the game and save his friends. The scores of all the players are shown in the <a href="{% url 'stats' %}"> Stats</a> section. Can you become the best?</p>
+      </div>
+      <div class="sub-box">
+        <div class="image-container">
+          {% load static %}
+          <img src="{% static 'assets/scenario01.jpeg' %}"></img>
+        </div>
+        <h2>Learn</h2>
+        <p>Learn while having some fun.. See your progress in your personal profile and see how quickly you can pass each level.</p>
+      </div>
+    </div>
+</section>
+
+<section id="see-stats">
+  <div class="container">
+    <div class="left-container">
+      <h1>See the stats</h1>
+      <h2>Discover Global Scores</h2>
+      <p>Find different types of statistics to see the progress of current global scores.</p>
+      <div class="scores-container">
+        <div class="see-scores">
+          <a href="{% url 'stats' %}"><h3>Top Scores</h3></a>
+          {% load static %}
+          <a href="{% url 'stats' %}"><img src="{% static 'assets/score.png' %}"></a>
+        </div>
+        <div class="see-scores">
+          <a href="{% url 'stats' %}"><h3>Level Scores</h3></a>
+          {% load static %}
+          <a href="{% url 'stats' %}"><img src="{% static 'assets/level-up.png' %}"></a>
+        </div>
+        <div class="see-scores">
+          <a href="{% url 'stats' %}"><h3>Downloads</h3></a>
+          {% load static %}
+          <a href="{% url 'stats' %}"><img src="{% static 'assets/download.png' %}"></a>
+        </div>
+      </div>
+    </div>
+    {% load static %}
+    <img src="{% static 'assets/example-stats.png' %}" id="stats-example">
+  </div>
+</section>
+{% endblock %}
+
+{% block footer-license %}
+
+{% endblock %}
